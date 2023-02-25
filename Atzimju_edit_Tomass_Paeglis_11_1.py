@@ -23,7 +23,7 @@ while True:
 #ievada prieksmetus
     if izv == "1":
         while True:
-            prieks_iev = str(input("Ludzu ievadiet prieksmeta nosaukumu, ko pievienot datubazei vai \"stop\", lai atceltu/parstatu ievadi un atgrieztos pie galvenas izvelnes: "))
+            prieks_iev = input("Ludzu ievadiet prieksmeta nosaukumu, ko pievienot datubazei vai \"stop\", lai atceltu/parstatu ievadi un atgrieztos pie galvenas izvelnes: ")
             if prieks_iev == "stop":
                 break
             elif prieks_iev in fail_pag:
